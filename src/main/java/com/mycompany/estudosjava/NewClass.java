@@ -4,12 +4,24 @@
  */
 package com.mycompany.estudosjava;
 
+import java.util.Scanner;
+
 /**
  *
  * @author usuario
  */
 public class NewClass {
     public static void main(String[] args) {
-        System.out.println("Barbara");
+    Scanner sc= new Scanner(System.in);
+        System.out.println("digite um numero : ");
+        int n=sc.nextInt();
+        int soma=0;
+        for(int i=1;i<=n;i++){
+          
+          soma=soma+i;
+       
+        }
+        System.out.println(soma);
+    
     }
 }
